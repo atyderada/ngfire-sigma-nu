@@ -1,0 +1,41 @@
+#bottom-bar {
+    padding: 15px 0px 10px 0px;
+    color: #ddd;
+    background-color: #1A1A1A;
+    text-align: center;
+
+    a {
+        font-size: 12pt;
+    }
+
+    .content {
+        margin-bottom: 20px;
+    }
+
+    .contact-link:link, .contact-link:visited {
+        color: #337AA8;
+        text-decoration: none;
+    }
+
+    .contact-link:hover {
+        text-decoration: underline;
+    }
+
+    #address-link:link, #address-link:visited {
+        color: #ddd;
+        text-decoration: underline;
+    }
+
+    #address-link:hover {
+        color: red;
+        text-decoration: underline;
+    }
+
+    #google-location {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        overflow: hidden;
+        margin-right: 10px;
+    }
+}
