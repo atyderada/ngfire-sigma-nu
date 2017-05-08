@@ -16,7 +16,13 @@ import { BottomBarComponent } from './bottom-bar/bottom-bar.component';
 
 import { MaterialModule } from '@angular/material';
 import { FlexLayoutModule } from '@angular/flex-layout';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations'
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { SlideShowComponent } from './slide-show/slide-show.component';
+import { SlideShowControlComponent } from './slide-show/slide-show-control/slide-show-control.component';
+import { SlideShowImagesComponent } from './slide-show/slide-show-images/slide-show-images.component';
+import { SlideShowPreviewsComponent } from './slide-show/slide-show-previews/slide-show-previews.component';
+import { SlideShowPreviewComponent } from './slide-show/slide-show-preview/slide-show-preview.component';
+import { SlideShowImageComponent } from './slide-show/slide-show-image/slide-show-image.component'
 
 @NgModule({
   declarations: [
@@ -27,7 +33,13 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations'
     AlumniComponent,
     HomeComponent,
     TopBarComponent,
-    BottomBarComponent
+    BottomBarComponent,
+    SlideShowComponent,
+    SlideShowControlComponent,
+    SlideShowImagesComponent,
+    SlideShowPreviewsComponent,
+    SlideShowPreviewComponent,
+    SlideShowImageComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,42 @@
+#carousel {
+     background-color: #1A1A1A;
+}
+
+#about-house-section {
+    
+    text-align: center;
+    padding: 40px 180px;
+    
+    h2 {
+        font-size: 1.6em;
+        font-weight: 500;
+        color: #272525;
+        margin: 0px 0px 15px;
+    }
+
+    p {
+        color: #272525;
+        font-size: 1.1em;
+        font-weight: 300;
+        margin: 0px 0px 15px;
+    }
+
+    @media (max-width: 800px) {
+    /* CSS that should be displayed if width is equal to or less than 800px goes here */
+        padding: 20px 60px;
+
+        h2 {
+            font-size: 1.3em;
+            font-weight: 500;
+            color: #272525;
+            margin: 0px 0px 10px;
+        }
+
+        p {
+            color: #272525;
+            font-size: 0.9em;
+            font-weight: 300;
+            margin: 0px 0px 10px;
+        }
+    }
+}
