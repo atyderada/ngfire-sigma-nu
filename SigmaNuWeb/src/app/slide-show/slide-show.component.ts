@@ -14,7 +14,7 @@ export class SlideShowComponent {
     }
     init(){
         var nameOfPicFolder = '../../assets/images/house-page';
-        var noOfPics = 2;
+        var noOfPics = 3;
         var counter = 1;
         while (counter <= noOfPics) {
             this.pics.push(nameOfPicFolder+'/house'+counter+'.jpg');
