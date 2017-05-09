@@ -1,11 +1,11 @@
 #bottom-bar {
-    padding: 15px 0px 10px 0px;
+    padding: 40px 0px;
     color: #ddd;
     background-color: #1A1A1A;
     text-align: center;
 
     a {
-        font-size: 12pt;
+        font-size: 10pt;
     }
 
     .content {
@@ -32,10 +32,9 @@
     }
 
     #google-location {
-        width: 200px;
-        height: 200px;
+        width: 160px;
+        height: 160px;
         border-radius: 50%;
         overflow: hidden;
-        margin-right: 10px;
     }
 }
