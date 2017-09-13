@@ -21,15 +21,6 @@ export class SlideShowComponent implements OnInit {
             counter++;
         }
     }
-    // init(){
-    //     var nameOfPicFolder = '../../assets/images/house-page';
-    //     var noOfPics = 3;
-    //     var counter = 1;
-    //     while (counter <= noOfPics) {
-    //         this.pics.push(nameOfPicFolder+'/house'+counter+'.jpg');
-    //         counter++;
-    //     }
-    // }
     setCurrent(_newValue){
         this.current = _newValue;
     }

@@ -23,7 +23,9 @@ import { SlideShowControlComponent } from './slide-show/slide-show-control/slide
 import { SlideShowImagesComponent } from './slide-show/slide-show-images/slide-show-images.component';
 import { SlideShowPreviewsComponent } from './slide-show/slide-show-previews/slide-show-previews.component';
 import { SlideShowPreviewComponent } from './slide-show/slide-show-preview/slide-show-preview.component';
-import { SlideShowImageComponent } from './slide-show/slide-show-image/slide-show-image.component'
+import { SlideShowImageComponent } from './slide-show/slide-show-image/slide-show-image.component';
+import { ContentComponent } from './content/content.component';
+import { AboutComponent } from './about/about.component'
 
 @NgModule({
   declarations: [
@@ -40,7 +42,9 @@ import { SlideShowImageComponent } from './slide-show/slide-show-image/slide-sho
     SlideShowImagesComponent,
     SlideShowPreviewsComponent,
     SlideShowPreviewComponent,
-    SlideShowImageComponent
+    SlideShowImageComponent,
+    ContentComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
