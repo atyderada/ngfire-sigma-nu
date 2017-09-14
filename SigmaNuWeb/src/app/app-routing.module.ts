@@ -7,17 +7,18 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
 const routes: Routes = [
-  {path: '', redirectTo: "home", pathMatch:"full" },
-  { path: 'home', component: HomeComponent },
-  { path: 'rush', component: RushComponent },
-  { path: 'house', component: HouseComponent },
-  { path: 'brothers', component: BrothersComponent },
-  { path: 'alumni', component: AlumniComponent },
-  { path: '**', redirectTo: "home" }
+  // { path: 'home', component: HomeComponent },
+  // { path: 'rush', component: RushComponent },
+  // { path: 'house', component: HouseComponent },
+  // { path: 'brothers', component: BrothersComponent },
+  // { path: 'alumni', component: AlumniComponent },
+  { path: '**', redirectTo: '' }
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [
+    RouterModule.forRoot(routes),
+  ],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }

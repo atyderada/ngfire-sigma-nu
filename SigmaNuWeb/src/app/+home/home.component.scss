@@ -11,10 +11,16 @@
     background-size: cover;
 
     justify-content: space-around;
-    padding-top: 80px;
+    padding-top: 10vh;
     height: 100vh;
 
     color: #9B9650;
+
+    @media (max-width: 500px) {
+        /* CSS that should be displayed if width is equal to or less than 875px goes here */
+        min-height: 420px;
+        background-attachment: scroll;
+    }
 
     #imageText {
 

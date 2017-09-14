@@ -1,0 +1,30 @@
+#rush-calendar {
+  width: 100%;
+
+  #calendar {
+    background-color: #333333;
+    /* Full height */
+    flex: 7;
+
+    #september {
+      flex: 1;
+
+      img {
+        width: 100%;
+      }
+    }
+
+    #october {
+      flex: 1;
+
+      img {
+        width: 100%;
+      }
+    }
+  }
+
+  .space {
+    background-color: #333333;
+    flex: 2;
+  }
+}

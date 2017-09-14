@@ -1,15 +1,15 @@
 <md-toolbar id="top-bar">
   <span fxHide.xs fxFlex></span>
-  <button id="sigma-nu-logo" type="button" [routerLink]="['/home']" routerLinkActive="active">
+  <a id="sigma-nu-logo" type="button" href="#home">
     <img src="../assets/images/logo.png">
-  </button>
+  </a>
   <span fxFlex></span>
-  <a fxHide.xs md-button [routerLink]="['/home']" routerLinkActive="active">Home</a>
-  <a fxHide.xs md-button [routerLink]="['/rush']" routerLinkActive="active">Rush</a>
-  <a fxHide.xs md-button [routerLink]="['/house']" routerLinkActive="active">House</a>
-  <a fxHide.xs md-button [routerLink]="['/brothers']" routerLinkActive="active">Brothers</a>
-  <a fxHide.xs md-button [routerLink]="['/alumni']" routerLinkActive="active">Alumni</a>
-  <button fxShow.xs="true" fxShow="false" id="options-menu" md-icon-button [mdMenuTriggerFor]="optiosMenu">
+  <a fxHide.xs md-button href="#home">Home</a>
+  <a fxHide.xs md-button href="#rush">Rush</a>
+  <a fxHide.xs md-button href="#house">House</a>
+  <!-- <a fxHide.xs md-button [routerLink]="['/brothers']" routerLinkActive="active">Brothers</a> -->
+  <!-- <a fxHide.xs md-button href="#alumni">Alumni</a> -->
+  <!-- <button fxShow.xs="true" fxShow="false" id="options-menu" md-icon-button [mdMenuTriggerFor]="optiosMenu">
     <md-icon>more_vert</md-icon>
   </button>
   <md-menu #optiosMenu="mdMenu">
@@ -18,6 +18,6 @@
     <button md-menu-item [routerLink]="['/house']" routerLinkActive="active">House</button>
     <button md-menu-item [routerLink]="['/brothers']" routerLinkActive="active">Brothers</button>
     <button md-menu-item [routerLink]="['/alumni']" routerLinkActive="active">Alumni</button>
-  </md-menu>
+  </md-menu> -->
   <span fxHide.xs fxFlex></span>
 </md-toolbar>

@@ -1,6 +1,7 @@
 import { environment } from './../environments/environment';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
@@ -24,8 +25,7 @@ import { SlideShowImagesComponent } from './slide-show/slide-show-images/slide-s
 import { SlideShowPreviewsComponent } from './slide-show/slide-show-previews/slide-show-previews.component';
 import { SlideShowPreviewComponent } from './slide-show/slide-show-preview/slide-show-preview.component';
 import { SlideShowImageComponent } from './slide-show/slide-show-image/slide-show-image.component';
-import { ContentComponent } from './content/content.component';
-import { AboutComponent } from './about/about.component'
+import { AboutComponent } from './about/about.component';
 
 @NgModule({
   declarations: [
@@ -43,10 +43,10 @@ import { AboutComponent } from './about/about.component'
     SlideShowPreviewsComponent,
     SlideShowPreviewComponent,
     SlideShowImageComponent,
-    ContentComponent,
     AboutComponent
   ],
   imports: [
+    CommonModule,
     BrowserModule,
     FormsModule,
     HttpModule,
