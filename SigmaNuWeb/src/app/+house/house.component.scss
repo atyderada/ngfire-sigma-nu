@@ -19,22 +19,12 @@
     // text-align: center;
     // padding: 20px 22%;
 
-    @media (max-width: 800px) {
+    @media (max-width: 550px) {
     /* CSS that should be displayed if width is equal to or less than 800px goes here */
-        padding: 20px 60px;
-
-        h3 {
-            font-size: 1.2em;
-            font-weight: 480;
-            color: #272525;
-            margin: 0px 0px 10px;
-        }
 
         p {
-            color: #272525;
-            font-size: 0.9em;
-            font-weight: 300;
-            margin: 0px 0px 10px;
+          font-size: 12pt;
+          line-height: 16pt;
         }
     }
 }

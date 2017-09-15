@@ -10,4 +10,15 @@
     font-size: 15pt;
     line-height: 20pt;
   }
+  // text-align: center;
+  // padding: 20px 22%;
+
+  @media (max-width: 550px) {
+  /* CSS that should be displayed if width is equal to or less than 800px goes here */
+
+      p {
+        font-size: 12pt;
+        line-height: 16pt;
+      }
+  }
 }
